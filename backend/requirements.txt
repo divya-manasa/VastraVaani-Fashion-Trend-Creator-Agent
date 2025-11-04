@@ -1,0 +1,35 @@
+# Updated requirements.txt with new dependencies for Fabric Recommender
+
+fastapi
+uvicorn[standard]
+python-dotenv
+httpx
+groq
+python-multipart
+
+# Apify integration
+apify-client
+
+# Computer Vision
+opencv-python
+numpy
+pillow
+scikit-learn # For K-Means clustering
+
+# PDF Generation
+reportlab
+
+# Existing dependencies
+requests
+matplotlib
+pandas
+
+sqlalchemy
+alembic
+pydantic
+pydantic-settings
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+python-dotenv
+cors-middleware
